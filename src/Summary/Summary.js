@@ -1,5 +1,4 @@
 import React from 'react';
-import SummaryTotal from '../SummaryTotal/SummaryTotal';
 import './Summary.css';
 import SummaryItems from '../SummaryItems/SummaryItems';
 import { USCurrencyFormat } from '../App';
