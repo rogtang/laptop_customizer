@@ -47,6 +47,7 @@ class App extends Component {
   render() {
     const features = Object.keys(this.props.features).map((feature, idx) => {
       const featureHash = feature + '-' + idx;
+      {/*child components are nested in parent components so their code is further in (i.e. below is FeatureItem, above is Feature)*/}
       const options = this.props.features[feature].map(item => {
         const itemHash = slugify(JSON.stringify(item));
         return (

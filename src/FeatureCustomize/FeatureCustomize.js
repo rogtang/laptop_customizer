@@ -5,6 +5,7 @@ import './FeatureCustomize.css'
 
 class FeatureCustomize extends React.Component {
     render() {
+    {/*store the props from Parent component (FeatureItem) as variables after render() */}
         const { item, feature, id } = this.props;
     
         return (

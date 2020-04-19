@@ -5,6 +5,7 @@ import { USCurrencyFormat } from '../App';
 
 class Summary extends React.Component {
     render() {
+      {/*store the props from Parent component (App) as variables after render() */}
         const { selected } = this.props;
         const summary = Object.keys(this.props.selected).map((feature, idx) => {
             const featureHash = feature + "-" + idx;

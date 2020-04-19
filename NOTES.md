@@ -1,3 +1,5 @@
+View Child component to see what props need to be passed from Parent component
+
 COMPONENTS
 1. APP
     - root

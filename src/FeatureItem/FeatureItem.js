@@ -6,6 +6,7 @@ import FeatureCustomize from '../FeatureCustomize/FeatureCustomize';
 
 class FeatureItem extends React.Component {
     render() {
+      {/*store the props from Parent component (Features) as variables after render() */}
         const { features, feature } = this.props;
         const options = features[feature].map(item => {
           const itemHash = slugify(JSON.stringify(item));
