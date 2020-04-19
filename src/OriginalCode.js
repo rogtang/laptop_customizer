@@ -13,7 +13,7 @@ const USCurrencyFormat = new Intl.NumberFormat('en-US', {
   currency: 'USD'
 });
 
-class OriginalCode extends Component {
+class App extends Component {
   state = {
     selected: {
       Processor: {
@@ -35,7 +35,7 @@ class OriginalCode extends Component {
     }
   };
 
-  /*Features component */
+
   updateFeature = (feature, newValue) => {
     const selected = Object.assign({}, this.state.selected);
     selected[feature] = newValue;

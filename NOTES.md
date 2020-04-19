@@ -12,7 +12,8 @@ COMPONENTS
 
 
 4. SummaryItems
-    - 
+    - list of items in cart
+    - total
 
 
 5. FeatureItem
